@@ -1,11 +1,10 @@
 Package: SCAP
 Type: Package
-Title: What the Package Does (Title Case)
+Title:Single-cell Analysis Package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Shamit Soneji
+Maintainer: Shamit Soneji <shamit.soneji@med.lu.se>
+Description: A dummy package
+License: None
 Encoding: UTF-8
 LazyData: true
