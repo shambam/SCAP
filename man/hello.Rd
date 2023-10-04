@@ -7,7 +7,7 @@
 hello()
 }
 \description{
-A simple function that prints a welcome Test2
+A simple function that prints a welcome
 }
 \examples{
 hello()
