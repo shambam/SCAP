@@ -1,6 +1,6 @@
 Package: SCAP
 Type: Package
-Title:Single-cell Analysis Package
+Title: Single-cell Analysis Package
 Version: 0.1.0
 Author: Shamit Soneji
 Maintainer: Shamit Soneji <shamit.soneji@med.lu.se>
@@ -8,3 +8,4 @@ Description: A dummy package
 License: None
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.3
