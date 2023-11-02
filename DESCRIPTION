@@ -9,3 +9,14 @@ License: None
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+Depends:
+  ggplot2,
+  dplyr,
+  patchwork,
+  gridExtra,
+  leiden,
+  RANN,
+  reticulate,
+  igraph,
+  umap
+

@@ -1,0 +1,17 @@
+#' A helper function to make a mysco dataset with minimal meta
+#' @name CreateMySCO
+#' @description Creates a mysco class which has basic QC metrics in the metadata
+#' @return A class of mysco with single-cell data
+#' @export CreateMySCO
+
+
+CreateMySCO <- function(mat){
+
+  features <- apply(mat >0, 2, sum)
+  nCount <- apply(mat,2,sum)
+
+  df <- data.frame(features=features,nCount=nCount)
+
+  msc <- new("mysco",meta=df,counts=mat)
+  msc
+}
