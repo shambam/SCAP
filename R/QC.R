@@ -65,3 +65,19 @@ FilterData <- function(mysco,sub,min.cells){
   mysco@counts <- mysco@counts[which(min.cls>=min.cells),rownames(d.filt)]
   mysco
 }
+
+#FilterData <- function(mysco,sub,min.cells){
+
+  #min.cls <- apply(mysco@counts >0, 1, sum)
+
+  #d.filt <- subset(mysco@meta, eval(parse(text=sub)))
+  #mysco@meta <- d.filt
+  #tcount <- mysco@counts[,rownames(d.filt)]
+  #min.cls <- apply(tcount >0, 1, sum)
+  #mysco@counts <- tcount[which(min.cls>=min.cells),]
+  #mysco
+#}
+
+
+
+

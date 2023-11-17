@@ -7,8 +7,7 @@
 #' @export MakeUMAP
 
 MakeUMAP <- function(mysco,nPC=10){
-
-  ump <- umap(mysco@pcs[,1:nPC])
+  ump <- umap::umap(mysco@pcs[,1:nPC])
   mysco@umap <- ump$layout
   mysco
 }

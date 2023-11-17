@@ -4,14 +4,16 @@
 \alias{ClusterCells}
 \title{Calculate a Leiden clustering of the cells}
 \usage{
-ClusterCells(mysco, nPC = 10, nK = 30)
+ClusterCells(mysco, nPC = 10, nK, res = 1)
 }
 \arguments{
 \item{mysco}{The mysco object}
 
 \item{nPC}{The number of PCs to use}
 
-\item{nK}{The max number of neighbours}
+\item{nK}{The number of neigbours}
+
+\item{res}{The resolution of the clustering. Default is 1}
 }
 \value{
 a mysco object with clusters in the cluster slot.

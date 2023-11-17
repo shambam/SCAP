@@ -16,7 +16,6 @@ Imports:
   dplyr,
   patchwork,
   gridExtra,
-  leiden,
   RANN,
   reticulate,
   igraph,
